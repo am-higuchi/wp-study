@@ -13,3 +13,13 @@
 
 3. ブラウザで http://localhost:8080 を表示
 
+
+## WordPress 環境へのファイル配置方法
+
+wp-study/html ディレクトリが
+WordPress 環境の /var/www/html ディレクトリと同期している。
+
+そのため、例えば WordPress 環境の /var/www/html/wp-content ディレクトリに
+ファイルを配置したい場合は、
+ローカル環境の wp-study/wp-content ディレクトリにファイルを配置すればよい。
+
